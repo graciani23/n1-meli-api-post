@@ -5,6 +5,6 @@ const controller = require("../controllers/professorasController")
 router.get('/', controller.get)
 router.get('/:id', controller.getById)
 router.get('/:id/semCpf', controller.getSemCpf)
-//router.post('/', controller.post)
+router.post('/', controller.post)
 
 module.exports = router
